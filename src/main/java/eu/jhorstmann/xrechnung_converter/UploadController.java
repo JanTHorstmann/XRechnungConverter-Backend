@@ -37,7 +37,7 @@ public class UploadController {
                 System.err.println("WARNUNG: Alte Ausgabedatei konnte nicht gelöscht werden: " + outputXml.getAbsolutePath());
             }
         
-            String mustangPath = "/home/jhorstmann/xrechnung-converter/Mustang-CLI-2.20.0.jar";
+            String mustangPath = "/app/mustang.jar";
         
             // Mustang CLI starten
             ProcessBuilder pb = new ProcessBuilder(
